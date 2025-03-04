@@ -1,0 +1,55 @@
+eth.accounts
+eth.getBalance(eth.accounts[0])
+miner.hashrate
+miner
+miner.getHashrate()
+miner.getHashrate
+eth.accounts
+personal.list
+personal.listAccounts
+eth.getBalance("0x95a7a3d3cbea2da6cd4f508333b46151d051c898")
+user1 = eth.accounts[0]
+user2 = eth.accounts[1]
+eth.getBalance(user1)
+eth.getBalance(user2)
+miner.setEtherbase(user1)
+miner.setEtherbase(user2)
+eth.coinbase
+miner.start()
+eth.blockNumber
+amount = web3.toWei(0.01)
+eth.sendTransaction({from:user1,to:user2,value:amount})
+eth.getBalance(user2)
+miner.stop()
+eth.blockNumber
+miner.stop()
+eth.blockNumber
+personal.listAccounts
+personal.lockAccount("0x95a7a3d3cbea2da6cd4f508333b46151d051c898")
+eth.blockNumber
+eth.getBalance(user2)
+user1 = eth.accounts[0]
+user2 = eth.accounts[1]
+eth.getBalance(user2)
+miner.setEtherbase(user2)
+eth.getBalance(user2)
+miner.start()
+eth.getBalance(user2)
+eth.coinbase
+eth.getBalance(user2)
+eth.sendTransaction({from:user2,to:user1,value:})
+amount = web3.toWei(0.01)
+eth.sendTransaction({from:user2,to:user1,value:amount})
+eth.sendTransaction({from:user2,to:user1,value:amount/10})
+eth.getBalance(user2)
+eth
+eth.getHashrate(user2)
+eth.getTransaction("0x02fba1f2cee5e46796a3a160d43c4604f786f8889f17ef08973dea7021ec92da")
+eth.getTransactionReceipt("0x02fba1f2cee5e46796a3a160d43c4604f786f8889f17ef08973dea7021ec92da")
+onst block = eth.getBlock(1)  // 示例：查询高度为 1 的区块
+block.transactions.forEach(tx => console.log(eth.getTransaction(tx)))
+// 获取区块信息（替换为实际区块高度或哈希）
+const block = eth.getBlock(1)  // 示例：查询高度为 1 的区块
+const block = eth.getBlock(1)
+eth.getBalance(user2)
+eth.getBlock(123)

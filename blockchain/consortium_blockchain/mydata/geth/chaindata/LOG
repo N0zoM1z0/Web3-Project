@@ -1,0 +1,27 @@
+=============== Mar 4, 2025 (CST) ===============
+12:05:30.561924 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:05:30.563332 manifest error: leveldb: manifest corrupted (field 'comparer'): short read [file=MANIFEST-000018] (skipped)
+12:05:30.563362 manifest error: leveldb: manifest corrupted (field 'comparer'): short read [file=MANIFEST-000018] (skipped)
+=============== Mar 4, 2025 (CST) ===============
+12:05:30.563536 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:05:30.563588 table@recovery F·2
+12:05:30.563594 table@recovery recovering @15
+12:05:30.563626 table@recovery unrecoverable @15 Ck·0 Cb·0 S·1866192
+12:05:30.563632 table@recovery recovering @16
+12:05:30.563653 table@recovery unrecoverable @16 Ck·0 Cb·0 S·1059
+12:05:30.563658 table@recovery recovered F·2 N·0 Gk·0 Ck·0 Q·0
+12:05:30.570345 version@stat F·[] S·0B[] Sc·[]
+12:05:30.570774 db@open opening
+12:05:30.570850 journal@recovery F·1
+12:05:30.577675 journal@recovery recovering @17
+12:05:30.578662 journal@drop journal-17 S·342B "invalid chunk type 0x5"
+12:05:30.579685 version@stat F·[] S·0B[] Sc·[]
+12:05:30.580723 db@janitor F·6 G·3
+12:05:30.580744 db@janitor removing table-16
+12:05:30.580836 remove 000016.ldb: remove /home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth/chaindata/000016.ldb: no such file or directory (old name)
+12:05:30.580853 db@janitor removing table-15
+12:05:30.581102 remove 000015.ldb: remove /home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth/chaindata/000015.ldb: no such file or directory (old name)
+12:05:30.581109 db@janitor removing manifest-13
+12:05:30.581141 db@open done T·10.350731ms
+12:06:07.737619 db@close closing
+12:06:07.737999 db@close done T·376.449µs

@@ -1,0 +1,288 @@
+flag provided but not defined: -rpc
+INFO [03-04|11:11:17.831] Maximum peer count                       ETH=50 total=50
+INFO [03-04|11:11:17.832] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+WARN [03-04|11:11:17.832] Option "allow-insecure-unlock" is deprecated and has no effect
+INFO [03-04|11:11:17.836] Set global gas cap                       cap=50,000,000
+INFO [03-04|11:11:17.836] Initializing the KZG library             backend=gokzg
+INFO [03-04|11:11:17.897] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [03-04|11:11:17.898] Defaulting to pebble as the backing database
+INFO [03-04|11:11:17.898] Allocated cache and file handles         database=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth/chaindata cache=512.00MiB handles=524,288
+INFO [03-04|11:11:17.985] Opened ancient database                  database=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth/chaindata/ancient/chain readonly=false
+INFO [03-04|11:11:17.989] State schema set to default              scheme=path
+INFO [03-04|11:11:17.997] Initialising Ethereum protocol           network=3 dbversion=<nil>
+ERROR[03-04|11:11:17.998] Head block is not reachable
+INFO [03-04|11:11:18.106] Opened ancient database                  database=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth/chaindata/ancient/state readonly=false
+INFO [03-04|11:11:18.106] Initialized path database                cache=154.00MiB buffer=256.00MiB history=90000
+INFO [03-04|11:11:18.106] Writing default main-net genesis block
+INFO [03-04|11:11:18.422] 
+INFO [03-04|11:11:18.422] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [03-04|11:11:18.422] Chain ID:  1 (mainnet)
+INFO [03-04|11:11:18.422] Consensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work)
+INFO [03-04|11:11:18.422] 
+INFO [03-04|11:11:18.422] Pre-Merge hard forks (block based):
+INFO [03-04|11:11:18.422]  - Homestead:                   #1150000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)
+INFO [03-04|11:11:18.422]  - DAO Fork:                    #1920000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/dao-fork.md)
+INFO [03-04|11:11:18.422]  - Tangerine Whistle (EIP 150): #2463000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)
+INFO [03-04|11:11:18.422]  - Spurious Dragon/1 (EIP 155): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [03-04|11:11:18.422]  - Spurious Dragon/2 (EIP 158): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [03-04|11:11:18.422]  - Byzantium:                   #4370000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)
+INFO [03-04|11:11:18.422]  - Constantinople:              #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)
+INFO [03-04|11:11:18.422]  - Petersburg:                  #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)
+INFO [03-04|11:11:18.422]  - Istanbul:                    #9069000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)
+INFO [03-04|11:11:18.422]  - Muir Glacier:                #9200000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md)
+INFO [03-04|11:11:18.422]  - Berlin:                      #12244000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)
+INFO [03-04|11:11:18.422]  - London:                      #12965000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)
+INFO [03-04|11:11:18.422]  - Arrow Glacier:               #13773000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md)
+INFO [03-04|11:11:18.422]  - Gray Glacier:                #15050000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md)
+INFO [03-04|11:11:18.422] 
+INFO [03-04|11:11:18.422] Merge configured:
+INFO [03-04|11:11:18.422]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md
+INFO [03-04|11:11:18.422]  - Network known to be merged
+INFO [03-04|11:11:18.422]  - Total terminal difficulty:  58750000000000000000000
+INFO [03-04|11:11:18.422] 
+INFO [03-04|11:11:18.422] Post-Merge hard forks (timestamp based):
+INFO [03-04|11:11:18.422]  - Shanghai:                    @1681338455 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/shanghai.md)
+INFO [03-04|11:11:18.422]  - Cancun:                      @1710338135 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/cancun.md)
+INFO [03-04|11:11:18.422] 
+INFO [03-04|11:11:18.422] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [03-04|11:11:18.422] 
+INFO [03-04|11:11:18.423] Loaded most recent local block           number=0 hash=d4e567..cb8fa3 age=55y11mo3w
+WARN [03-04|11:11:18.423] Failed to load snapshot                  err="missing or corrupted snapshot"
+INFO [03-04|11:11:18.423] Rebuilding state snapshot
+INFO [03-04|11:11:18.423] Initialized transaction indexer          range="last 2350000 blocks"
+INFO [03-04|11:11:18.424] Resuming state snapshot generation       root=d7f897..0f0544 accounts=0 slots=0 storage=0.00B dangling=0 elapsed=1.075ms
+INFO [03-04|11:11:18.479] Generated state snapshot                 accounts=8893 slots=0 storage=409.64KiB dangling=0 elapsed=55.502ms
+INFO [03-04|11:11:18.541] Enabled snap sync                        head=0 hash=d4e567..cb8fa3
+INFO [03-04|11:11:18.542] Gasprice oracle is ignoring threshold set threshold=2
+WARN [03-04|11:11:18.543] Engine API enabled                       protocol=eth
+INFO [03-04|11:11:18.543] Starting peer-to-peer node               instance=Geth/mychain/v1.15.4-stable-8ccca244/linux-amd64/go1.24.0
+INFO [03-04|11:11:18.572] New local node record                    seq=1,741,057,878,567 id=d3977991830978cc ip=127.0.0.1 udp=0 tcp=30303
+INFO [03-04|11:11:18.572] Started P2P networking                   self="enode://2f2598198d6ad45fc2bd3717df77c6ffffb638bd374b40a558c1455fb0807715b3960532d94a779bdf9c69535ba5aee769951c06f1b5ff9493cb7a84aa8a9053@127.0.0.1:30303?discport=0"
+INFO [03-04|11:11:18.573] IPC endpoint opened                      url=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth.ipc
+ERROR[03-04|11:11:18.573] Unavailable modules in HTTP API list     unavailable="[personal shh]" available="[admin debug web3 eth txpool miner net]"
+INFO [03-04|11:11:18.574] Generated JWT secret                     path=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth/jwtsecret
+INFO [03-04|11:11:18.574] HTTP server started                      endpoint=[::]:8545 auth=false prefix= cors=* vhosts=localhost
+INFO [03-04|11:11:18.575] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [03-04|11:11:18.575] HTTP server started                      endpoint=127.0.0.1:8551 auth=true  prefix= cors=localhost vhosts=localhost
+WARN [03-04|11:11:53.554] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+INFO [03-04|11:12:54.877] HTTP server stopped                      endpoint=[::]:8545
+INFO [03-04|11:12:54.877] HTTP server stopped                      endpoint=127.0.0.1:8551
+INFO [03-04|11:12:54.877] IPC endpoint closed                      url=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth.ipc
+INFO [03-04|11:12:54.877] Ethereum protocol stopped
+INFO [03-04|11:12:54.877] Transaction pool stopped
+INFO [03-04|11:12:54.877] Persisting dirty state to disk           root=d7f897..0f0544 layers=0
+INFO [03-04|11:12:54.877] Persisted dirty state to disk            size=74.00B elapsed="61.173µs"
+INFO [03-04|11:12:54.905] Blockchain stopped
+INFO [03-04|11:14:30.172] Maximum peer count                       ETH=50 total=50
+INFO [03-04|11:14:30.175] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+WARN [03-04|11:14:30.175] Option "allow-insecure-unlock" is deprecated and has no effect
+INFO [03-04|11:14:30.182] Set global gas cap                       cap=50,000,000
+INFO [03-04|11:14:30.183] Initializing the KZG library             backend=gokzg
+INFO [03-04|11:14:30.250] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [03-04|11:14:30.250] Using pebble as the backing database
+INFO [03-04|11:14:30.250] Allocated cache and file handles         database=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth/chaindata cache=512.00MiB handles=524,288
+INFO [03-04|11:14:30.358] Opened ancient database                  database=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth/chaindata/ancient/chain readonly=false
+INFO [03-04|11:14:30.358] State scheme set to already existing     scheme=path
+INFO [03-04|11:14:30.360] Initialising Ethereum protocol           network=3 dbversion=9
+INFO [03-04|11:14:30.389] Opened ancient database                  database=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth/chaindata/ancient/state readonly=false
+INFO [03-04|11:14:30.394] Initialized path database                cache=154.00MiB buffer=256.00MiB history=90000
+INFO [03-04|11:14:30.395] 
+INFO [03-04|11:14:30.395] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [03-04|11:14:30.395] Chain ID:  1 (mainnet)
+INFO [03-04|11:14:30.395] Consensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work)
+INFO [03-04|11:14:30.395] 
+INFO [03-04|11:14:30.395] Pre-Merge hard forks (block based):
+INFO [03-04|11:14:30.395]  - Homestead:                   #1150000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)
+INFO [03-04|11:14:30.395]  - DAO Fork:                    #1920000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/dao-fork.md)
+INFO [03-04|11:14:30.395]  - Tangerine Whistle (EIP 150): #2463000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)
+INFO [03-04|11:14:30.395]  - Spurious Dragon/1 (EIP 155): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [03-04|11:14:30.395]  - Spurious Dragon/2 (EIP 158): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [03-04|11:14:30.395]  - Byzantium:                   #4370000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)
+INFO [03-04|11:14:30.395]  - Constantinople:              #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)
+INFO [03-04|11:14:30.395]  - Petersburg:                  #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)
+INFO [03-04|11:14:30.395]  - Istanbul:                    #9069000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)
+INFO [03-04|11:14:30.395]  - Muir Glacier:                #9200000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md)
+INFO [03-04|11:14:30.395]  - Berlin:                      #12244000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)
+INFO [03-04|11:14:30.395]  - London:                      #12965000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)
+INFO [03-04|11:14:30.395]  - Arrow Glacier:               #13773000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md)
+INFO [03-04|11:14:30.395]  - Gray Glacier:                #15050000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md)
+INFO [03-04|11:14:30.395] 
+INFO [03-04|11:14:30.395] Merge configured:
+INFO [03-04|11:14:30.395]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md
+INFO [03-04|11:14:30.395]  - Network known to be merged
+INFO [03-04|11:14:30.395]  - Total terminal difficulty:  58750000000000000000000
+INFO [03-04|11:14:30.395] 
+INFO [03-04|11:14:30.395] Post-Merge hard forks (timestamp based):
+INFO [03-04|11:14:30.395]  - Shanghai:                    @1681338455 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/shanghai.md)
+INFO [03-04|11:14:30.395]  - Cancun:                      @1710338135 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/cancun.md)
+INFO [03-04|11:14:30.395] 
+INFO [03-04|11:14:30.395] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [03-04|11:14:30.395] 
+INFO [03-04|11:14:30.395] Loaded most recent local block           number=0 hash=d4e567..cb8fa3 age=55y11mo3w
+INFO [03-04|11:14:30.396] Initialized transaction indexer          range="last 2350000 blocks"
+INFO [03-04|11:14:30.427] Enabled snap sync                        head=0 hash=d4e567..cb8fa3
+INFO [03-04|11:14:30.428] Gasprice oracle is ignoring threshold set threshold=2
+WARN [03-04|11:14:30.429] Engine API enabled                       protocol=eth
+INFO [03-04|11:14:30.429] Starting peer-to-peer node               instance=Geth/mychain/v1.15.4-stable-8ccca244/linux-amd64/go1.24.0
+INFO [03-04|11:14:30.461] New local node record                    seq=1,741,057,878,568 id=d3977991830978cc ip=127.0.0.1 udp=0 tcp=30303
+INFO [03-04|11:14:30.461] Started P2P networking                   self="enode://2f2598198d6ad45fc2bd3717df77c6ffffb638bd374b40a558c1455fb0807715b3960532d94a779bdf9c69535ba5aee769951c06f1b5ff9493cb7a84aa8a9053@127.0.0.1:30303?discport=0"
+INFO [03-04|11:14:30.463] IPC endpoint opened                      url=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth.ipc
+ERROR[03-04|11:14:30.463] Unavailable modules in HTTP API list     unavailable="[personal shh]" available="[admin debug web3 eth txpool miner net]"
+INFO [03-04|11:14:30.463] Loaded JWT secret file                   path=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth/jwtsecret crc32=0xe5d7bf8b
+INFO [03-04|11:14:30.464] HTTP server started                      endpoint=[::]:8545 auth=false prefix= cors=* vhosts=localhost
+INFO [03-04|11:14:30.465] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [03-04|11:14:30.465] HTTP server started                      endpoint=127.0.0.1:8551 auth=true  prefix= cors=localhost vhosts=localhost
+WARN [03-04|11:15:05.431] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+WARN [03-04|11:17:46.234] Served eth_coinbase                      reqid=8 duration="12.07µs" err="the method eth_coinbase does not exist/is not available"
+WARN [03-04|11:17:46.235] Served eth_mining                        reqid=9 duration="4.962µs" err="the method eth_mining does not exist/is not available"
+WARN [03-04|11:17:46.235] Served eth_hashrate                      reqid=10 duration="3.852µs" err="the method eth_hashrate does not exist/is not available"
+WARN [03-04|11:17:46.238] Served eth_protocolVersion               reqid=16 duration="3.328µs" err="the method eth_protocolVersion does not exist/is not available"
+WARN [03-04|11:17:46.240] Served eth_coinbase                      reqid=22 duration="2.186µs" err="the method eth_coinbase does not exist/is not available"
+WARN [03-04|11:17:46.240] Served eth_hashrate                      reqid=24 duration="2.035µs" err="the method eth_hashrate does not exist/is not available"
+WARN [03-04|11:17:46.241] Served eth_mining                        reqid=26 duration="2.448µs" err="the method eth_mining does not exist/is not available"
+WARN [03-04|11:17:46.241] Served eth_protocolVersion               reqid=28 duration="2.406µs" err="the method eth_protocolVersion does not exist/is not available"
+INFO [03-04|11:19:17.135] HTTP server stopped                      endpoint=[::]:8545
+INFO [03-04|11:19:17.135] HTTP server stopped                      endpoint=127.0.0.1:8551
+INFO [03-04|11:19:17.135] IPC endpoint closed                      url=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth.ipc
+INFO [03-04|11:19:17.135] Ethereum protocol stopped
+INFO [03-04|11:19:17.135] Transaction pool stopped
+INFO [03-04|11:19:17.135] Persisting dirty state to disk           root=d7f897..0f0544 layers=0
+INFO [03-04|11:19:17.135] Persisted dirty state to disk            size=74.00B elapsed="182.558µs"
+INFO [03-04|11:19:17.140] Blockchain stopped
+INFO [03-04|11:41:06.695] Maximum peer count                       ETH=50 total=50
+INFO [03-04|11:41:06.701] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+WARN [03-04|11:41:06.701] Option "allow-insecure-unlock" is deprecated and has no effect
+INFO [03-04|11:41:06.703] Set global gas cap                       cap=50,000,000
+INFO [03-04|11:41:06.703] Initializing the KZG library             backend=gokzg
+INFO [03-04|11:41:06.777] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [03-04|11:41:06.777] Using pebble as the backing database
+INFO [03-04|11:41:06.777] Allocated cache and file handles         database=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth/chaindata cache=512.00MiB handles=524,288
+INFO [03-04|11:41:06.817] Opened ancient database                  database=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth/chaindata/ancient/chain readonly=false
+INFO [03-04|11:41:06.819] State scheme set to already existing     scheme=path
+INFO [03-04|11:41:06.820] Initialising Ethereum protocol           network=3 dbversion=9
+INFO [03-04|11:41:06.829] Opened ancient database                  database=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth/chaindata/ancient/state readonly=false
+INFO [03-04|11:41:06.829] Initialized path database                cache=154.00MiB buffer=256.00MiB history=90000
+INFO [03-04|11:41:06.829] 
+INFO [03-04|11:41:06.829] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [03-04|11:41:06.829] Chain ID:  1 (mainnet)
+INFO [03-04|11:41:06.829] Consensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work)
+INFO [03-04|11:41:06.829] 
+INFO [03-04|11:41:06.829] Pre-Merge hard forks (block based):
+INFO [03-04|11:41:06.829]  - Homestead:                   #1150000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)
+INFO [03-04|11:41:06.829]  - DAO Fork:                    #1920000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/dao-fork.md)
+INFO [03-04|11:41:06.829]  - Tangerine Whistle (EIP 150): #2463000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)
+INFO [03-04|11:41:06.829]  - Spurious Dragon/1 (EIP 155): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [03-04|11:41:06.829]  - Spurious Dragon/2 (EIP 158): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [03-04|11:41:06.829]  - Byzantium:                   #4370000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)
+INFO [03-04|11:41:06.829]  - Constantinople:              #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)
+INFO [03-04|11:41:06.829]  - Petersburg:                  #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)
+INFO [03-04|11:41:06.829]  - Istanbul:                    #9069000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)
+INFO [03-04|11:41:06.829]  - Muir Glacier:                #9200000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md)
+INFO [03-04|11:41:06.829]  - Berlin:                      #12244000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)
+INFO [03-04|11:41:06.829]  - London:                      #12965000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)
+INFO [03-04|11:41:06.829]  - Arrow Glacier:               #13773000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md)
+INFO [03-04|11:41:06.829]  - Gray Glacier:                #15050000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md)
+INFO [03-04|11:41:06.829] 
+INFO [03-04|11:41:06.829] Merge configured:
+INFO [03-04|11:41:06.829]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md
+INFO [03-04|11:41:06.829]  - Network known to be merged
+INFO [03-04|11:41:06.829]  - Total terminal difficulty:  58750000000000000000000
+INFO [03-04|11:41:06.829] 
+INFO [03-04|11:41:06.829] Post-Merge hard forks (timestamp based):
+INFO [03-04|11:41:06.829]  - Shanghai:                    @1681338455 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/shanghai.md)
+INFO [03-04|11:41:06.829]  - Cancun:                      @1710338135 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/cancun.md)
+INFO [03-04|11:41:06.829] 
+INFO [03-04|11:41:06.829] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [03-04|11:41:06.829] 
+INFO [03-04|11:41:06.830] Loaded most recent local block           number=0 hash=d4e567..cb8fa3 age=55y11mo3w
+INFO [03-04|11:41:06.830] Initialized transaction indexer          range="last 2350000 blocks"
+INFO [03-04|11:41:06.860] Enabled snap sync                        head=0 hash=d4e567..cb8fa3
+INFO [03-04|11:41:06.860] Gasprice oracle is ignoring threshold set threshold=2
+WARN [03-04|11:41:06.861] Engine API enabled                       protocol=eth
+INFO [03-04|11:41:06.861] Starting peer-to-peer node               instance=Geth/mychain/v1.15.4-stable-8ccca244/linux-amd64/go1.24.0
+INFO [03-04|11:41:06.935] IPC endpoint opened                      url=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth.ipc
+ERROR[03-04|11:41:06.935] Unavailable modules in HTTP API list     unavailable="[personal shh]" available="[admin debug web3 eth txpool miner net]"
+INFO [03-04|11:41:06.935] Loaded JWT secret file                   path=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth/jwtsecret crc32=0xe5d7bf8b
+INFO [03-04|11:41:06.936] HTTP server started                      endpoint=[::]:8545 auth=false prefix= cors=* vhosts=localhost
+INFO [03-04|11:41:06.936] New local node record                    seq=1,741,057,878,569 id=d3977991830978cc ip=127.0.0.1 udp=0 tcp=30303
+INFO [03-04|11:41:06.936] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [03-04|11:41:06.936] HTTP server started                      endpoint=127.0.0.1:8551 auth=true  prefix= cors=localhost vhosts=localhost
+INFO [03-04|11:41:06.936] Started P2P networking                   self="enode://2f2598198d6ad45fc2bd3717df77c6ffffb638bd374b40a558c1455fb0807715b3960532d94a779bdf9c69535ba5aee769951c06f1b5ff9493cb7a84aa8a9053@127.0.0.1:30303?discport=0"
+WARN [03-04|11:41:11.453] Served eth_coinbase                      reqid=8 duration="10.286µs" err="the method eth_coinbase does not exist/is not available"
+WARN [03-04|11:41:11.453] Served eth_mining                        reqid=9 duration="3.959µs"  err="the method eth_mining does not exist/is not available"
+WARN [03-04|11:41:11.453] Served eth_hashrate                      reqid=10 duration="3.121µs"  err="the method eth_hashrate does not exist/is not available"
+WARN [03-04|11:41:11.456] Served eth_protocolVersion               reqid=16 duration="3.002µs"  err="the method eth_protocolVersion does not exist/is not available"
+WARN [03-04|11:41:11.457] Served eth_coinbase                      reqid=22 duration="4.12µs"   err="the method eth_coinbase does not exist/is not available"
+WARN [03-04|11:41:11.458] Served eth_hashrate                      reqid=24 duration="3.616µs"  err="the method eth_hashrate does not exist/is not available"
+WARN [03-04|11:41:11.459] Served eth_mining                        reqid=26 duration="4.555µs"  err="the method eth_mining does not exist/is not available"
+WARN [03-04|11:41:11.459] Served eth_protocolVersion               reqid=28 duration="3.616µs"  err="the method eth_protocolVersion does not exist/is not available"
+WARN [03-04|11:41:41.863] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+WARN [03-04|11:45:17.210] Served bzz_hive                          reqid=37 duration="2.145µs"  err="the method bzz_hive does not exist/is not available"
+WARN [03-04|11:45:17.210] Served bzz_info                          reqid=38 duration="2.083µs"  err="the method bzz_info does not exist/is not available"
+WARN [03-04|11:45:17.211] Served bzz_hive                          reqid=39 duration="1.702µs"  err="the method bzz_hive does not exist/is not available"
+WARN [03-04|11:45:17.211] Served bzz_info                          reqid=40 duration="1.942µs"  err="the method bzz_info does not exist/is not available"
+WARN [03-04|11:45:17.215] Served eth_coinbase                      reqid=41 duration="2.737µs"  err="the method eth_coinbase does not exist/is not available"
+WARN [03-04|11:45:17.215] Served eth_mining                        reqid=42 duration="6.278µs"  err="the method eth_mining does not exist/is not available"
+WARN [03-04|11:45:17.215] Served eth_hashrate                      reqid=43 duration="1.487µs"  err="the method eth_hashrate does not exist/is not available"
+WARN [03-04|11:45:17.216] Served eth_protocolVersion               reqid=49 duration="1.242µs"  err="the method eth_protocolVersion does not exist/is not available"
+WARN [03-04|11:45:17.218] Served eth_coinbase                      reqid=55 duration="2.417µs"  err="the method eth_coinbase does not exist/is not available"
+WARN [03-04|11:45:17.218] Served eth_hashrate                      reqid=57 duration="17.909µs" err="the method eth_hashrate does not exist/is not available"
+WARN [03-04|11:45:17.219] Served eth_mining                        reqid=59 duration="18.299µs" err="the method eth_mining does not exist/is not available"
+WARN [03-04|11:45:17.219] Served eth_protocolVersion               reqid=61 duration="1.728µs"  err="the method eth_protocolVersion does not exist/is not available"
+WARN [03-04|11:45:17.222] Served personal_listAccounts             reqid=69 duration="1.755µs"  err="the method personal_listAccounts does not exist/is not available"
+WARN [03-04|11:45:17.222] Served personal_listAccounts             reqid=70 duration="2.035µs"  err="the method personal_listAccounts does not exist/is not available"
+WARN [03-04|11:45:17.224] Served eth_protocolVersion               reqid=81 duration=918ns      err="the method eth_protocolVersion does not exist/is not available"
+WARN [03-04|11:45:17.224] Served shh_version                       reqid=82 duration=456ns      err="the method shh_version does not exist/is not available"
+WARN [03-04|11:45:17.225] Served eth_protocolVersion               reqid=83 duration=654ns      err="the method eth_protocolVersion does not exist/is not available"
+WARN [03-04|11:45:17.225] Served shh_version                       reqid=86 duration=316ns      err="the method shh_version does not exist/is not available"
+INFO [03-04|11:45:39.715] HTTP server stopped                      endpoint=[::]:8545
+INFO [03-04|11:45:39.715] HTTP server stopped                      endpoint=127.0.0.1:8551
+INFO [03-04|11:45:39.715] IPC endpoint closed                      url=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth.ipc
+INFO [03-04|11:45:39.715] Ethereum protocol stopped
+INFO [03-04|11:45:39.715] Transaction pool stopped
+INFO [03-04|11:45:39.716] Persisting dirty state to disk           root=d7f897..0f0544 layers=0
+INFO [03-04|11:45:39.716] Persisted dirty state to disk            size=74.00B elapsed="242.447µs"
+INFO [03-04|11:45:39.758] Blockchain stopped
+INFO [03-04|12:05:30.560] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [03-04|12:05:30.560] The flag --rpc is deprecated and will be removed June 2021, please use --http 
+WARN [03-04|12:05:30.560] The flag --rpcaddr is deprecated and will be removed June 2021, please use --http.addr 
+WARN [03-04|12:05:30.560] The flag --rpcport is deprecated and will be removed June 2021, please use --http.port 
+WARN [03-04|12:05:30.560] The flag --rpccorsdomain is deprecated and will be removed June 2021, please use --http.corsdomain 
+WARN [03-04|12:05:30.560] The flag --rpcapi is deprecated and will be removed June 2021, please use --http.api 
+INFO [03-04|12:05:30.560] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [03-04|12:05:30.561] Set global gas cap                       cap=50,000,000
+INFO [03-04|12:05:30.561] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [03-04|12:05:30.561] Allocated cache and file handles         database=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth/chaindata cache=512.00MiB handles=524,288
+INFO [03-04|12:05:30.597] Opened ancient database                  database=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth/chaindata/ancient readonly=false
+INFO [03-04|12:05:30.597] Writing default main-net genesis block 
+INFO [03-04|12:05:30.808] Persisted trie from memory database      nodes=12356 size=1.78MiB time=35.418789ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [03-04|12:05:30.809] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000 Petersburg: 7280000 Istanbul: 9069000, Muir Glacier: 9200000, Berlin: 12244000, London: 12965000, Engine: ethash}"
+INFO [03-04|12:05:30.809] Disk storage enabled for ethash caches   dir=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth/ethash count=3
+INFO [03-04|12:05:30.809] Disk storage enabled for ethash DAGs     dir=/home/web/.ethash count=2
+INFO [03-04|12:05:30.811] Initialising Ethereum protocol           network=3 dbversion=<nil>
+INFO [03-04|12:05:30.812] Loaded most recent local header          number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=55y11mo3w
+INFO [03-04|12:05:30.812] Loaded most recent local full block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=55y11mo3w
+INFO [03-04|12:05:30.812] Loaded most recent local fast block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=55y11mo3w
+WARN [03-04|12:05:30.812] Failed to load snapshot, regenerating    err="missing or corrupted snapshot"
+INFO [03-04|12:05:30.812] Rebuilding state snapshot 
+INFO [03-04|12:05:30.812] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [03-04|12:05:30.812] Gasprice oracle is ignoring threshold set threshold=2
+WARN [03-04|12:05:30.812] Error reading unclean shutdown markers   error="leveldb: not found"
+INFO [03-04|12:05:30.812] Starting peer-to-peer node               instance=Geth/mychain/v1.10.5-stable-33ca98ec/linux-amd64/go1.17
+INFO [03-04|12:05:30.812] Resuming state snapshot generation       root=d7f897..0f0544 accounts=0 slots=0 storage=0.00B elapsed="621.833µs"
+INFO [03-04|12:05:30.872] IPC endpoint opened                      url=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth.ipc
+ERROR[03-04|12:05:30.872] Unavailable modules in HTTP API list     unavailable=[shh] available="[admin debug web3 eth txpool personal ethash miner net]"
+INFO [03-04|12:05:30.873] HTTP server started                      endpoint=[::]:8545 prefix= cors=* vhosts=localhost
+INFO [03-04|12:05:30.889] New local node record                    seq=1,741,057,878,570 id=d3977991830978cc ip=127.0.0.1 udp=0 tcp=30303
+INFO [03-04|12:05:30.889] Started P2P networking                   self="enode://2f2598198d6ad45fc2bd3717df77c6ffffb638bd374b40a558c1455fb0807715b3960532d94a779bdf9c69535ba5aee769951c06f1b5ff9493cb7a84aa8a9053@127.0.0.1:30303?discport=0"
+WARN [03-04|12:05:30.944] Served eth_coinbase                      reqid=3 t="24.048µs" err="etherbase must be explicitly specified"
+INFO [03-04|12:05:30.951] Generated state snapshot                 accounts=8893 slots=0 storage=409.64KiB elapsed=139.484ms
+INFO [03-04|12:06:07.716] HTTP server stopped                      endpoint=[::]:8545
+INFO [03-04|12:06:07.727] IPC endpoint closed                      url=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth.ipc
+INFO [03-04|12:06:07.728] Ethereum protocol stopped 
+INFO [03-04|12:06:07.728] Transaction pool stopped 
+INFO [03-04|12:06:07.728] Writing snapshot state to disk           root=d7f897..0f0544
+INFO [03-04|12:06:07.728] Persisted trie from memory database      nodes=0     size=0.00B   time="3.537µs"   gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [03-04|12:06:07.728] Writing clean trie cache to disk         path=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth/triecache threads=4
+INFO [03-04|12:06:07.737] Persisted the clean trie cache           path=/home/web/Desktop/Web3/blockchain/consortium_blockchain/mydata/geth/triecache elapsed=9.000ms
+INFO [03-04|12:06:07.737] Blockchain stopped 
