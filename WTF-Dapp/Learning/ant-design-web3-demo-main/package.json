@@ -9,15 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ant-design/web3": "^1.21.0",
-    "@ant-design/web3-wagmi": "^2.10.1",
-    "@tanstack/react-query": "^5.67.1",
-    "antd": "^5.24.2",
+    "@ant-design/web3": "^1.17.0",
+    "@ant-design/web3-wagmi": "^2.9.0",
+    "antd": "^5.12.5",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "viem": "^2.23.6",
-    "wagmi": "^2.14.12"
+    "wagmi": "^2.5.2",
+    "viem": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
