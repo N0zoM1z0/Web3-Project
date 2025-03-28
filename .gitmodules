@@ -7,3 +7,6 @@
 [submodule "DApps-Dev/my-foundry-NFT/lib/openzeppelin-contracts"]
 	path = DApps-Dev/my-foundry-NFT/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "CTF/Ethernaut/Dex2/lib/forge-std"]
+	path = CTF/Ethernaut/Dex2/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
