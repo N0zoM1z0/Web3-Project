@@ -10,3 +10,6 @@
 [submodule "CTF/Ethernaut/Dex2/lib/forge-std"]
 	path = CTF/Ethernaut/Dex2/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "CTF/Ethernaut/Re-entrancy/lib/forge-std"]
+	path = CTF/Ethernaut/Re-entrancy/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std

