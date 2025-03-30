@@ -1,0 +1,10 @@
+[package]
+name = "BTCDEX"
+version = "0.1.0"
+edition = "2021" # 保持 2021 稳定版
+
+[dependencies]
+bitcoin = { version = "0.29" } # <--- 移除这里的 features = ["rand-std"]
+secp256k1 = { version = "0.27", features = ["rand-std", "global-context"] } # 'rand-std' 在这里是正确的
+hex = "0.4"
+rand = "0.8"

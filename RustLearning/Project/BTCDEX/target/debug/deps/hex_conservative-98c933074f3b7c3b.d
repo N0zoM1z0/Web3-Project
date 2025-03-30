@@ -1,0 +1,10 @@
+/home/web/Desktop/Web3/Web3-Project/RustLearning/Project/BTCDEX/target/debug/deps/libhex_conservative-98c933074f3b7c3b.rmeta: /home/web/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-conservative-0.1.2/src/lib.rs /home/web/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-conservative-0.1.2/src/buf_encoder.rs /home/web/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-conservative-0.1.2/src/display.rs /home/web/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-conservative-0.1.2/src/error.rs /home/web/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-conservative-0.1.2/src/iter.rs /home/web/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-conservative-0.1.2/src/parse.rs
+
+/home/web/Desktop/Web3/Web3-Project/RustLearning/Project/BTCDEX/target/debug/deps/hex_conservative-98c933074f3b7c3b.d: /home/web/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-conservative-0.1.2/src/lib.rs /home/web/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-conservative-0.1.2/src/buf_encoder.rs /home/web/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-conservative-0.1.2/src/display.rs /home/web/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-conservative-0.1.2/src/error.rs /home/web/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-conservative-0.1.2/src/iter.rs /home/web/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-conservative-0.1.2/src/parse.rs
+
+/home/web/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-conservative-0.1.2/src/lib.rs:
+/home/web/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-conservative-0.1.2/src/buf_encoder.rs:
+/home/web/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-conservative-0.1.2/src/display.rs:
+/home/web/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-conservative-0.1.2/src/error.rs:
+/home/web/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-conservative-0.1.2/src/iter.rs:
+/home/web/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hex-conservative-0.1.2/src/parse.rs:
