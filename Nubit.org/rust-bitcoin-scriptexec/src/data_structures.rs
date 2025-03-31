@@ -21,7 +21,6 @@ impl StackEntry {
     pub fn serialize_to_bytes(self) -> Vec<u8> {
         self.as_bytes()
     }
-
     // This assumes the StackEntry fit in a u32 and will pad it with leading zeros to 4 bytes.
     pub fn as_bytes(&self) -> Vec<u8> {
         match self {
