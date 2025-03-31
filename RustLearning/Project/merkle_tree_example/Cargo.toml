@@ -1,0 +1,8 @@
+[package]
+name = "merkle_tree_example"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sha2 = "0.10" # 用于 SHA-256 哈希
+hex = "0.4"   # 用于将哈希值转换为十六进制字符串
