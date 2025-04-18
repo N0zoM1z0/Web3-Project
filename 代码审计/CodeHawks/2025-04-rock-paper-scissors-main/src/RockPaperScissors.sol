@@ -128,7 +128,7 @@ contract RockPaperScissors {
         require(_timeoutInterval >= 5 minutes, "Timeout must be at least 5 minutes");
 
         // Transfer token to contract
-        winningToken.transferFrom(msg.sender, address(this), 1);
+        winningToken.transferFrom(msg.sender, address(this), 1); // 重入？
 
         uint256 gameId = gameCounter++;
 
@@ -159,7 +159,7 @@ contract RockPaperScissors {
         require(block.timestamp <= game.joinDeadline, "Join deadline passed");
         require(msg.value == game.bet, "Bet amount must match creator's bet");
 
-        game.playerB = msg.sender;
+        game.playerB = msg.sender; // 这里playerB加入后没有更新游戏状态为已加入，也就是说我们仍可以加入重置game.playerB
         emit PlayerJoined(_gameId, msg.sender);
     }
 
@@ -177,9 +177,9 @@ contract RockPaperScissors {
         require(winningToken.balanceOf(msg.sender) >= 1, "Must have winning token");
 
         // Transfer token to contract
-        winningToken.transferFrom(msg.sender, address(this), 1);
+        winningToken.transferFrom(msg.sender, address(this), 1); // 重入？
 
-        game.playerB = msg.sender;
+        game.playerB = msg.sender; // 同joinGameWithEth的问题，感觉应该需要更新game的status防止多次加入
         emit PlayerJoined(_gameId, msg.sender);
     }
 
@@ -479,7 +479,7 @@ contract RockPaperScissors {
         // Handle ETH prizes
         if (game.bet > 0) {
             // Calculate total pot and fee
-            uint256 totalPot = game.bet * 2;
+            uint256 totalPot = game.bet * 2; // *2 for both?
             uint256 fee = (totalPot * PROTOCOL_FEE_PERCENT) / 100;
             prize = totalPot - fee;
 

@@ -28,6 +28,7 @@ contract RockPaperScissorsTest is Test {
     address public admin;
     address public playerA;
     address public playerB;
+    address public playerC;
 
     // Test constants
     uint256 constant BET_AMOUNT = 0.1 ether;
@@ -43,10 +44,12 @@ contract RockPaperScissorsTest is Test {
         admin = address(this);
         playerA = makeAddr("playerA");
         playerB = makeAddr("playerB");
+        playerC = makeAddr("playerC");
 
         // Fund the players
         vm.deal(playerA, 10 ether);
         vm.deal(playerB, 10 ether);
+        vm.deal(playerC, 10 ether);
 
         // Deploy contracts
         game = new RockPaperScissors();
@@ -58,6 +61,9 @@ contract RockPaperScissorsTest is Test {
 
         vm.prank(address(game));
         token.mint(playerB, 10);
+
+        vm.prank(address(game));
+        token.mint(playerC, 10);
     }
 
     // ==================== GAME CREATION TESTS ====================
@@ -168,6 +174,35 @@ contract RockPaperScissorsTest is Test {
         assertEq(storedPlayerA, playerA);
         assertEq(storedPlayerB, playerB);
         assertEq(uint256(state), uint256(RockPaperScissors.GameState.Created));
+    }
+
+    // Test re-joining a game with ETH
+    function test_RejoinGameWithETH() public {
+        // First create a game
+        vm.prank(playerA);
+        gameId = game.createGameWithEth{value: BET_AMOUNT}(TOTAL_TURNS, TIMEOUT);
+
+        // Now join the game
+        address playerB_from_game;
+
+        vm.startPrank(playerB);
+        vm.expectEmit(true, true, false, true);
+        emit PlayerJoined(gameId, playerB);
+    
+        game.joinGameWithEth{value: BET_AMOUNT}(gameId);
+        console.log("Player B joined game");
+        ( , playerB_from_game, , , , , , , , , , , , , , ) = game.games(gameId);
+        console.log("game.playerB = ", playerB_from_game);
+        console.log("===========================");
+        // Now re-join the game
+        vm.startPrank(playerC);
+        vm.expectEmit(true, true, false, true);
+        emit PlayerJoined(gameId, playerC);
+        game.joinGameWithEth{value: BET_AMOUNT}(gameId);
+
+        console.log("Player C joined game");
+        ( , playerB_from_game, , , , , , , , , , , , , , ) = game.games(gameId);
+        console.log("game.playerB = ", playerB_from_game);
     }
 
     // Test joining a game with wrong bet amount
