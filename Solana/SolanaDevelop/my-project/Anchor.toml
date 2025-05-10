@@ -1,17 +1,18 @@
 [toolchain]
+package_manager = "yarn"
 
 [features]
 resolution = true
 skip-lint = false
 
 [programs.localnet]
-my_program = "FuDHv13W8SD8KVp2kUJc8vgQ48vq5Dc3p3wK5hKX9ddu"
+my_project = "ACm8Yyd9fTwMbwZZj4fChXyWpveSWGvkX6xMCRTFvx4a"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "localnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]

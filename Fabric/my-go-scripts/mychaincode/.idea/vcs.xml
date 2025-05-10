@@ -2,6 +2,17 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../DApps-Dev/my-foundry-NFT/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../DApps-Dev/my-foundry-NFT/lib/openzeppelin-contracts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../DApps-Dev/my-foundry-NFT/lib/openzeppelin-contracts/lib/erc4626-tests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../DApps-Dev/my-foundry-NFT/lib/openzeppelin-contracts/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../DApps-Dev/my-foundry-NFT/lib/openzeppelin-contracts/lib/halmos-cheatcodes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../lib/openzeppelin-contracts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../lib/openzeppelin-contracts/lib/erc4626-tests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../lib/openzeppelin-contracts/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../lib/openzeppelin-contracts/lib/halmos-cheatcodes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../lib/v3-core" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../../代码审计/daos-world-contracts" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../../代码审计/daos-world-contracts/lib/dn404" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../../代码审计/daos-world-contracts/lib/dn404/lib/solady" vcs="Git" />
